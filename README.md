@@ -3,6 +3,8 @@ This repository contains projects and/or R code I have worked on throughout my s
 
 ### Files:
 
+Proj250 is a folder containing files for a mini project in a STAT 250 class where I graphed the deline in NBA player height over recent years and scoring average by age
+
 FinalProject.pdf is the output for FinalProject.Rmd
 
 FinalProject.Rmd is the final project for a STAT 469 class about appraising homes based on home characteristics

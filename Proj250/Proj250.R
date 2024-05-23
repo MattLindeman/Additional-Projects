@@ -10,7 +10,7 @@
 # From the 1996 season to the 2020 season
 
 library(readr)
-all_seasons <- read_csv("matthew_lindeman_proj_1/all_seasons.csv")
+all_seasons <- read_csv("Proj250/all_seasons.csv")
 
 # filter(), arrange(), mutate(), select(), summarize()
 # Cleaning/Transforming the Data Set --------------------------------------
@@ -79,12 +79,12 @@ decline_in_height <- ggplot(data = cleaned_all_seasons, mapping = aes(x = season
 
 # Saving Objects ----------------------------------------------------------
 
-write.csv(cleaned_all_seasons, "~/STAT 250/cleaned_all_seasons.csv", row.names = FALSE)
+write.csv(cleaned_all_seasons, "~/STAT 250/Proj250/cleaned_all_seasons.csv", row.names = FALSE)
 
 library(ggpubr)
 
 ggarrange(points_by_age, decline_in_height) # Combining plots
 
-ggsave(filename = "proj_1_plots.pdf")
+ggsave(filename = "Proj250.pdf")
 
 
